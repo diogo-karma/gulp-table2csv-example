@@ -1,0 +1,22 @@
+{
+  "name": "html2csv",
+  "version": "0.0.1",
+  "description": "html 2 csv",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=* nodemon index.js"
+  },
+  "keywords": [
+    "dom",
+    "csv",
+    "html"
+  ],
+  "author": "Nechtan <dnechtan@gmail.com> (http://github.com/nechtan)",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-table2csv": "~1.0.0"
+  },
+  "devDependencies": {
+    "gulp": "~3.5.2"
+  }
+}
